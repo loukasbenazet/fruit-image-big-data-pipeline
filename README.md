@@ -55,12 +55,12 @@ This prepares the data for future large-scale ML training.
 
 ## Output data
 
-The pipeline generates:
+The pipeline generates distributed outputs in cloud storage:
 
-- Distributed parquet files containing extracted image features
-- CSV files containing PCA-reduced features
+- `Results/` → Parquet files containing extracted CNN features
+- `Results_PCA/` → CSV files containing PCA-reduced features
 
-These outputs are ready for future machine learning workflows.
+These files are not included due to size but are produced by the pipeline.
 
 ---
 
